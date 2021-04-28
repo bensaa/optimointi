@@ -1,7 +1,7 @@
-//g++ tehtava3.cpp -pthread -o tehtava3 && ./tehtava3
+//g++ optimointi.cpp -pthread -o optimointi && ./optimointi
 
 /*Tekijä: Benjamin Säämäki
-Toiminta: Ohjelma käynnistää pää säikeen lisäksi 4 suoritus säijettä jotka rekursiivisen function avulla
+Toiminta: Ohjelma käynnistää pää-säikeen lisäksi 4 suoritus-säijettä jotka rekursiivisen function avulla
 käyvät lävitse ratkaisuja löytääkseen optimaalisemman ratkaisun.
 Pääsäije jää odottamaan käyttäjän syötettä käynnistettyään muut säikeet, kun se saa syötteen se
 ilmoittaa muille säikeille että nyt on lopetettava, ja odottaa että muut säikeet pysähtyvät,
